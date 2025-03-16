@@ -24,7 +24,9 @@ This project calculates the financial viability of installing solar panels on fi
 ## Usage
 1. Ensure that you have a valid Google Solar API key.
 2. Ensure that you have a valid CSV file with Fire Station data (look for GIS data)
-3. 
+   
+This data represents the Solar Potential of each fire station, with metrics including payback time and annual savings.
+Feel free to run this code with the sample fire station data provided to generate the solar potential csv file. 
 
 ## Dependencies
 - requests
