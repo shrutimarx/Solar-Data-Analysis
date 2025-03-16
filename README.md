@@ -23,9 +23,10 @@ This project calculates the financial viability of installing solar panels on fi
 - pyproj (NOTE: this does not work with MACOS x86_64 architecture)
  To check your architecture, run
   ```bash
-python3 -c 'import platform; print(platform.machine())'
+python3 -c import platform; print(platform.machine())
 ```
 If x86, you can use Miniforge. Run the following in terminal.
+
 ```bash
    brew install miniforge
    conda create -n gis_env python=3.11
